@@ -1,0 +1,44 @@
+body{
+  background-color: #363e33;
+}
+h1{
+  font-family: 'Bombardier', sans-serif;
+  font-size: 150px;
+  text-align: center;
+  color: #689955;
+  text-shadow: 7px 7px #16290f;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  font-family: 'Bombardier', sans-serif;
+  padding: 0 100px;
+  font-size: 50px;
+  color: #689955;
+  text-shadow: 3px 3px #16290f;
+}
+
+h3{
+  transform: translateY(-50px);
+}
+
+button{
+  position: relative;
+  left: 47%;
+  top: -150px;
+  background-color: green;
+  width: 100px;
+  height: 30px;
+  border: hidden;
+  border-radius: 5px;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
